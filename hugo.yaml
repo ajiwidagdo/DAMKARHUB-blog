@@ -1,0 +1,37 @@
+baseURL: "https://ajiwidagdo.github.io/damkarhub-blog/"
+languageCode: id-id
+title: DAMKARHUB
+theme: PaperMod
+
+params:
+  description: "Edukasi + Aksi Pemadam Kebakaran"
+  author: DAMKARHUB
+  defaultTheme: light
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  ShowToc: true
+  TocOpen: false
+  label:
+    text: "🚒 DAMKARHUB"
+    iconHeight: 35
+
+menu:
+  main:
+    - identifier: beranda
+      name: Beranda
+      url: /
+      weight: 1
+    - identifier: artikel
+      name: Artikel
+      url: /artikel/
+      weight: 2
+    - identifier: tentang
+      name: Tentang
+      url: /tentang/
+      weight: 3

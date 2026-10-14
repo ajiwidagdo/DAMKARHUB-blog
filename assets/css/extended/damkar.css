@@ -1,0 +1,27 @@
+/* DAMKARHUB — aksen merah api */
+:root {
+  --damkar-red: #d62828;
+  --damkar-dark: #a31f1f;
+}
+
+a, .post-entry .entry-header h2, .post-title {
+  color: inherit;
+}
+
+.post-entry:hover .entry-header h2,
+a:hover {
+  color: var(--damkar-red);
+}
+
+.chroma, code {
+  border-radius: 6px;
+}
+
+.logo a, .logo {
+  font-weight: 800;
+}
+
+/* Tombol & badge bernuansa damkar */
+.button, button {
+  border-radius: 8px;
+}
